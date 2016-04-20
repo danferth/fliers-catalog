@@ -1,0 +1,54 @@
+$white:#ffffff;
+$tic-blue: #0676B3;
+$grey:#999999;
+
+body{
+    background:lighten($grey, 30%);
+}
+.fliers{
+    color:$tic-blue;
+    text-shadow:0 1px 0 rgba(darken($tic-blue, 20%), .3);
+    font-family: 'Consolas', 'monaco', monospace;
+}
+.header{
+    padding:1rem 0;
+    border-bottom:1px dashed $white;
+}
+
+.catalog{
+    li{
+        width:calc(153px * 2);
+        background:rgba($white, .3);
+        padding:0;
+        img{
+            float:left;
+        }
+        .info{
+            float:left;
+            width:153px;
+            padding:.5rem 1rem;
+            .part-number{
+                font:bold 1rem sans-serif;
+                margin:0;
+                padding:0;
+            }
+            .description{
+                font:normal .75rem sans-serif;
+                color:darken($grey, 35%);
+                margin:.25rem 0 0 0;
+                padding:0;
+            }
+            .notes{
+                font:normal .7rem sans-serif;
+                color:darken($grey, 20%);
+                margin:.5rem 0 0 0;
+                padding:0;
+            }
+        }
+        &:after{
+            display:table;
+            content:"";
+            clear:both;
+        }
+    }
+}
