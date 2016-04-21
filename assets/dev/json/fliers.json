@@ -1,7 +1,6 @@
-{
-  "fliers" : [
+[
     {
-      "part-number" : "35145-TC",
+      "partNumber" : "35145-TC",
       "description" : "Standard Filter Vials Flier",
       "notes" : "",
       "pages" : 2,
@@ -9,7 +8,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345369-TC",
+      "partNumber" : "345369-TC",
       "description" : "eXtreme|FV",
       "notes" : "",
       "pages" : 2,
@@ -17,7 +16,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345288-TC",
+      "partNumber" : "345288-TC",
       "description" : "eXtractor3D|FV",
       "notes" : "",
       "pages" : 2,
@@ -25,7 +24,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345382-TC",
+      "partNumber" : "345382-TC",
       "description" : "nano|Filter Vial",
       "notes" : "",
       "pages" : 2,
@@ -33,7 +32,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345488-TC",
+      "partNumber" : "345488-TC",
       "description" : "MEGA|FV General Flier",
       "notes" : "",
       "pages" : 2,
@@ -41,7 +40,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345361-TC",
+      "partNumber" : "345361-TC",
       "description" : "General Filter Vial Flier",
       "notes" : "",
       "pages" : 2,
@@ -49,7 +48,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "35065-TC",
+      "partNumber" : "35065-TC",
       "description" : "SINGLE StEP FV Simple Protection",
       "notes" : "",
       "pages" : 4,
@@ -57,7 +56,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "FV-Catalog",
+      "partNumber" : "FV-Catalog",
       "description" : "Filter Vial Catalog Application Notes",
       "notes" : "",
       "pages" : 80,
@@ -65,7 +64,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345373-TC",
+      "partNumber" : "345373-TC",
       "description" : "eXtreme|FV Ethanol",
       "notes" : "",
       "pages" : 2,
@@ -73,7 +72,7 @@
       "section" : "FV"
     },
      {
-      "part-number" : "345363-TC-TIC",
+      "partNumber" : "345363-TC-TIC",
       "description" : "FV Green Solution",
       "notes" : "",
       "pages" : 6,
@@ -81,7 +80,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345375-TC",
+      "partNumber" : "345375-TC",
       "description" : "Oral Fluid Drugs of Abuse Testing",
       "notes" : "",
       "pages" : 6,
@@ -89,7 +88,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345345-TC",
+      "partNumber" : "345345-TC",
       "description" : "SINGLE StEP® FV PVDF Leachable",
       "notes" : "",
       "pages" : 2,
@@ -97,7 +96,7 @@
       "section" : "FV"
     },
     {
-      "part-number" : "345297-TC",
+      "partNumber" : "345297-TC",
       "description" : "Optimum Growth™ Tips & Tricks CHO/HEK",
       "notes" : "",
       "pages" : 28,
@@ -105,7 +104,7 @@
       "section" : "OG"
     },
     {
-      "part-number" : "345298-TC",
+      "partNumber" : "345298-TC",
       "description" : "Optimum Growth™ General Info",
       "notes" : "",
       "pages" : 8,
@@ -113,7 +112,7 @@
       "section" : "OG"
     },
      {
-      "part-number" : "35110-TC",
+      "partNumber" : "35110-TC",
       "description" : "Ultra Yield Flask",
       "notes" : "",
       "pages" : 4,
@@ -121,7 +120,7 @@
       "section" : "UYF"
     },
     {
-      "part-number" : "35114-TC",
+      "partNumber" : "35114-TC",
       "description" : "Plasmid+",
       "notes" : "",
       "pages" : 4,
@@ -129,7 +128,7 @@
       "section" : "UYF"
     },
     {
-      "part-number" : "35112-TC",
+      "partNumber" : "35112-TC",
       "description" : "AirOtop Enhanced Seal",
       "notes" : "",
       "pages" : 2,
@@ -137,7 +136,7 @@
       "section" : "UYF"
     },
     {
-      "part-number" : "FSK-Ecoli",
+      "partNumber" : "FSK-Ecoli",
       "description" : "E.Coli Paper",
       "notes" : "",
       "pages" : 8,
@@ -145,12 +144,11 @@
       "section" : "UYF"
     },
     {
-      "part-number" : "Bio-Folder",
+      "partNumber" : "Bio-Folder",
       "description" : "Biology Folder",
       "notes" : "",
       "pages" : 0,
       "rev" : "",
       "section" : "MISC"
-    },
-  ]
-}
+    }
+]

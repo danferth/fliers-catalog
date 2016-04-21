@@ -6,7 +6,7 @@
 	<title>TIC Fliers Catalog</title>
 	<link rel='stylesheet' href='assets/build/css/global.css' type='text/css' />
 </head>
-<body>
+<body ng-app="APP">
 <div class="main row">
 	<div class="inner-main small-12 small-centered coumn">
 		
@@ -32,14 +32,15 @@
 			</div>
 		</div>
 		
-		<div class="catalog row">
+		<div class="catalog row" ng-controller="catalog">
 			<ul class="small-block-grid-6">
-				<li>
-					<img src="assets/build/img/35065-TC.jpg" width="153" height="200"></img>
+				<li ng-repeat="f in data">
+					<img ng-src="assets/build/img/{{ f.partNumber }}.jpg" width="153" height="200"></img>
 					<div class="info">
-						<h1 class="part-number">35065-TC</h1>
-						<p class="description">Standard Filter Vials Flier 2 Pg</p>
-						<p class="notes">this is a note on the item</p>
+						<h1 class="part-number">{{ f.partNumber }}-{{ f.rev }}</h1>
+						<p class="description">{{ f.description }}</p>
+						<p class="notes">Pages: {{ f.pages }}</p>
+						<p class="notes">{{ f.notes }}</p>
 					</div>
 				</li>
 			</ul>
@@ -52,6 +53,7 @@
 
 	</div><!-- end inner-main -->
 </div><!-- end main -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
 	<script type='text/javascript' src='assets/build/js/site.js'></script> 
 </body>
