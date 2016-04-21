@@ -3,52 +3,97 @@ $tic-blue: #0676B3;
 $grey:#999999;
 
 body{
-    background:lighten($grey, 30%);
+		background:lighten($grey, 30%);
 }
 .fliers{
-    color:$tic-blue;
-    text-shadow:0 1px 0 rgba(darken($tic-blue, 20%), .3);
-    font-family: 'Consolas', 'monaco', monospace;
+		color:$tic-blue;
+		text-shadow:0 1px 0 rgba(darken($tic-blue, 20%), .3);
+		font-family: 'Consolas', 'monaco', monospace;
 }
 .header{
-    padding:1rem 0;
-    border-bottom:1px dashed $white;
+		padding:1rem 0;
+		border-bottom:1px dashed $white;
 }
 
 .catalog{
-    li{
-        width:calc(153px * 2);
-        background:rgba($white, .3);
-        padding:0;
-        img{
-            float:left;
-        }
-        .info{
-            float:left;
-            width:153px;
-            padding:.5rem 1rem;
-            .part-number{
-                font:bold 1rem sans-serif;
-                margin:0;
-                padding:0;
-            }
-            .description{
-                font:normal .75rem sans-serif;
-                color:darken($grey, 35%);
-                margin:.25rem 0 0 0;
-                padding:0;
-            }
-            .notes{
-                font:normal .7rem sans-serif;
-                color:darken($grey, 20%);
-                margin:.5rem 0 0 0;
-                padding:0;
-            }
-        }
-        &:after{
-            display:table;
-            content:"";
-            clear:both;
-        }
-    }
+		li{
+				padding:0;
+				margin:0 1rem 1rem 0;
+				img{
+				}
+				.info{
+						width:153px;
+						padding:.5rem 1rem;
+						.part-number{
+								font:bold 1rem sans-serif;
+								margin:0;
+								padding:0;
+						}
+						.description{
+								font:normal .75rem sans-serif;
+								color:darken($grey, 35%);
+								margin:.25rem 0 0 0;
+								padding:0;
+						}
+						.notes{
+								font:normal .7rem sans-serif;
+								color:darken($grey, 20%);
+								margin:.5rem 0 0 0;
+								padding:0;
+						}
+				}
+				&:after{
+						display:table;
+						content:"";
+						clear:both;
+				}
+		}
+}
+
+.list-button{
+	margin:0;
+	padding:.5rem 1rem;
+	background:none;
+	display:inline-block;
+	color:darken($white, 20%);
+	&:hover{
+		background:rgba($white, .25);
+	}
+	&:active{
+		outline:none;
+		border:none;
+	}
+}
+.active{
+	color:darken($white, 100%);
+}
+
+.catalog .items{
+	.imageList{
+		float:left;
+	}
+	.cardList{
+		width:calc(153px * 2);
+		background:rgba($white, .3);
+	}
+	.infoList{
+		float:left;
+	}
+	
+	.imageTh{
+		box-shadow:0 0 15px 5px rgba(darken($white, 100%), .1), 0 4px 5px 1px rgba(darken($white,100%), .4);
+	}
+	.cardTh{
+		position:relative;
+		width:153px;
+		background:none;
+		margin-right:5rem;
+	}
+	.infoTh{
+		position:absolute;
+		bottom:0;
+		left:0;
+		background:rgba($white, .6);
+		outline:1px solid red;
+	}
 }

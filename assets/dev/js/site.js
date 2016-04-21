@@ -4,8 +4,8 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
     $http.get('assets/build/json/fliers.json').then(function(res){
         $scope.data = res.data;
         
-        
-        $scope.test = "hey there";
+        $scope.thActive = true;
+        $scope.listActive = false;
         
     });
 }]);

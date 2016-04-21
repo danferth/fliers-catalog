@@ -4,7 +4,7 @@
       "description" : "Standard Filter Vials Flier",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "L",
       "section" : "FV"
     },
     {
@@ -12,7 +12,7 @@
       "description" : "eXtreme|FV",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "B",
       "section" : "FV"
     },
     {
@@ -20,7 +20,7 @@
       "description" : "eXtractor3D|FV",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "A",
       "section" : "FV"
     },
     {
@@ -28,7 +28,7 @@
       "description" : "nano|Filter Vial",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "B",
       "section" : "FV"
     },
     {
@@ -44,7 +44,7 @@
       "description" : "General Filter Vial Flier",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -52,7 +52,7 @@
       "description" : "SINGLE StEP FV Simple Protection",
       "notes" : "",
       "pages" : 4,
-      "rev" : "",
+      "rev" : "E",
       "section" : "FV"
     },
     {
@@ -60,7 +60,7 @@
       "description" : "Filter Vial Catalog Application Notes",
       "notes" : "",
       "pages" : 80,
-      "rev" : "",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -74,22 +74,22 @@
      {
       "partNumber" : "345363-TC-TIC",
       "description" : "FV Green Solution",
-      "notes" : "",
+      "notes" : "Contains insert 345363-TC-B",
       "pages" : 6,
-      "rev" : "",
+      "rev" : "A",
       "section" : "FV"
     },
     {
       "partNumber" : "345375-TC",
       "description" : "Oral Fluid Drugs of Abuse Testing",
-      "notes" : "",
+      "notes" : "Contains insert ",
       "pages" : 6,
       "rev" : "",
       "section" : "FV"
     },
     {
       "partNumber" : "345345-TC",
-      "description" : "SINGLE StEP® FV PVDF Leachable",
+      "description" : "SINGLE StEP&reg; FV PVDF Leachable",
       "notes" : "",
       "pages" : 2,
       "rev" : "",
@@ -116,7 +116,7 @@
       "description" : "Ultra Yield Flask",
       "notes" : "",
       "pages" : 4,
-      "rev" : "",
+      "rev" : "G",
       "section" : "UYF"
     },
     {
@@ -124,7 +124,7 @@
       "description" : "Plasmid+",
       "notes" : "",
       "pages" : 4,
-      "rev" : "",
+      "rev" : "D",
       "section" : "UYF"
     },
     {
@@ -132,7 +132,7 @@
       "description" : "AirOtop Enhanced Seal",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "D",
       "section" : "UYF"
     },
     {
