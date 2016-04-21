@@ -7,5 +7,7 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
         $scope.thActive = true;
         $scope.listActive = false;
         
+        $scope.cardHovered = false;
+        
     });
 }]);

@@ -41,10 +41,10 @@
 		
 		<div class="catalog row">
 			<div class="small-12 column">
-				<ul class="items small-block-grid-1 medium-block-grid-3">
-					<li ng-repeat="f in data" ng-class="{cardList: listActive, cardTh: thActive}">
+				<ul class="items small-block-grid-1" ng-class="{'medium-block-grid-4': thActive, 'medium-block-grid-3': listActive}">
+					<li ng-repeat="f in data" ng-class="{cardList: listActive, cardTh: thActive}" ng-mouseenter="cardHovered = !cardHovered" ng-mouseleave="cardHovered = !cardHovered">
 						<img ng-class="{imageList: listActive, imageTh: thActive}" ng-src="assets/build/img/{{ f.partNumber }}.jpg" width="153" height="200"></img>
-						<div class="info" ng-class="{infoList: listActive, infoTh: thActive}">
+						<div class="info" ng-class="{infoList: listActive, infoTh: thActive, hovered: cardHovered}">
 							<h1 class="part-number">{{ f.partNumber }} {{ f.rev }}</h1>
 							<p class="description">{{ f.description }}</p>
 							<p class="notes">Pages: {{ f.pages }}</p>

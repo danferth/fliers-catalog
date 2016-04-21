@@ -81,19 +81,24 @@ body{
 	}
 	
 	.imageTh{
-		box-shadow:0 0 15px 5px rgba(darken($white, 100%), .1), 0 4px 5px 1px rgba(darken($white,100%), .4);
+		
 	}
 	.cardTh{
 		position:relative;
 		width:153px;
 		background:none;
 		margin-right:5rem;
+		overflow:hidden;
+		box-shadow:0 0 15px 5px rgba(darken($white, 100%), .1), 0 4px 5px 1px rgba(darken($white,100%), .4);
 	}
 	.infoTh{
 		position:absolute;
-		bottom:0;
+		bottom:-150px;
 		left:0;
-		background:rgba($white, .6);
-		outline:1px solid red;
+		background:rgba($white, .8);
+		transition:bottom 450ms;
+	}
+	.hovered{
+		bottom:0;
 	}
 }
