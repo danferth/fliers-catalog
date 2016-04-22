@@ -8,8 +8,7 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
         $scope.listActive = true;
         
         $scope.cardHovered = false;
-        
-        $scope.sortBy = "data.section";
+
         
     });
 }]);
