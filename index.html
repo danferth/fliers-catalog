@@ -34,27 +34,60 @@
 		
 		<div class="navigation row">
 			<div class="buttons small-12  column">
-				<span class="list-button" ng-class="{active: thActive}" ng-click="thActive = !thActive; listActive = !listActive"><i class="fa fa-th"></i></span>
-				<span class="list-button" ng-class="{active: listActive}" ng-click="thActive = !thActive; listActive = !listActive"><i class="fa fa-list"></i></span>
-				<label for="cs">Hide Revision <input type="checkbox" name="cs" ng-model="cs"/></label>
-				<label for="fv">Filter Vial <input type="checkbox" name="fv" ng-true-value="'FV'" ng-model="search.section"/></label>
-				<label for="og">OPtimum Growth&reg; <input type="checkbox" name="og" ng-true-value="'OG'" ng-model="search.section"/></label>
-				<label for="uyf">Ultra Yield&trade; <input type="checkbox" name="uyf" ng-true-value="'UYF'" ng-model="search.section"/></label>
+				<span class="list-button" 
+							ng-class="{active: thActive}" 
+							ng-click="thActive = !thActive; listActive = !listActive">
+					<i class="fa fa-th"></i>
+				</span>
+				<span class="list-button" 
+							ng-class="{active: listActive}" 
+							ng-click="thActive = !thActive; listActive = !listActive">
+					<i class="fa fa-list"></i>
+				</span>
+				<label for="cs">Hide Revision <input 	type="checkbox" 
+																							name="cs" 
+																							ng-model="cs"/>
+																						</label>
+				<label for="fv">Filter Vial <input 	type="checkbox" 
+																						name="fv" 
+																						ng-true-value="'FV'" 
+																						ng-model="search.section"/>
+																					</label>
+				<label for="og">OPtimum Growth&reg; <input 	type="checkbox" 
+																										name="og" 
+																										ng-true-value="'OG'" 
+																										ng-model="search.section"/>
+																									</label>
+				<label for="uyf">Ultra Yield&trade; <input 	type="checkbox" 
+																										name="uyf" 
+																										ng-true-value="'UYF'" 
+																										ng-model="search.section"/>
+																									</label>
 			</div>
 		</div>
 		
 		<div class="catalog row">
 			<div class="small-12 column">
 				<p>{{ sortBy }}</p>
-				<ul class="items small-block-grid-1" ng-class="{'medium-block-grid-4': thActive, 'medium-block-grid-3': listActive}">
-					<li ng-repeat="f in data | filter:search" ng-class="{cardList: listActive, cardTh: thActive}" ng-mouseenter="cardHovered = !cardHovered" ng-mouseleave="cardHovered = !cardHovered">
-						<img ng-class="{imageList: listActive, imageTh: thActive}" ng-src="assets/build/img/{{ f.partNumber }}.jpg" width="153" height="200"></img>
+				<ul class="items small-block-grid-1" 
+						ng-class="{'medium-block-grid-4': thActive, 'medium-block-grid-3': listActive}">
+					
+					<li ng-repeat="f in data | filter:search"
+							ng-class="{cardList: listActive, cardTh: thActive}" 
+							ng-mouseenter="cardHovered = !cardHovered" 
+							ng-mouseleave="cardHovered = !cardHovered">
+						
+						<img 	ng-class="{imageList: listActive, imageTh: thActive}" 
+									ng-src="assets/build/img/{{ f.partNumber }}.jpg" 
+									width="153" height="200"></img>
+						
 						<div class="info" ng-class="{infoList: listActive, infoTh: thActive, hovered: cardHovered}">
 							<h1 class="part-number">{{ f.partNumber }} <span ng-hide="cs">{{ f.rev }}</span></h1>
 							<p class="description">{{ f.description }}</p>
 							<p class="notes">Pages: {{ f.pages }}</p>
 							<p class="notes">{{ f.notes }}</p>
 						</div>
+					
 					</li>
 				</ul>
 			</div>
