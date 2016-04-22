@@ -9,6 +9,5 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
         
         $scope.cardHovered = false;
 
-        
     });
 }]);

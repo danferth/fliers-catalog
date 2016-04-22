@@ -46,33 +46,39 @@
 				</span>
 				<label for="cs">Hide Revision <input 	type="checkbox" 
 																							name="cs" 
-																							ng-model="cs"/>
+																							ng-init="cs = true"
+																							ng-checked="cs"
+																							ng-click="cs = !cs"/>
 																						</label>
+																						
 				<label for="fv">Filter Vial <input 	type="checkbox" 
-																						name="fv" 
-																						ng-true-value="'FV'" 
-																						ng-model="search.section"/>
+																						name="fv"
+																						ng-true-value="'FV'"
+																						ng-false-value="''"
+																						ng-model="q.section"/>
 																					</label>
-				<label for="og">OPtimum Growth&reg; <input 	type="checkbox" 
+				<label for="og">Optimum Growth&reg; <input 	type="checkbox" 
 																										name="og" 
-																										ng-true-value="'OG'" 
-																										ng-model="search.section"/>
+																										ng-true-value="'OG'"
+																										ng-false-value="''"
+																										ng-model="q.section"/>
 																									</label>
 				<label for="uyf">Ultra Yield&trade; <input 	type="checkbox" 
-																										name="uyf" 
-																										ng-true-value="'UYF'" 
-																										ng-model="search.section"/>
+																										name="uyf"
+																										ng-true-value="'UYF'"
+																										ng-false-value="''"
+																										ng-model="q.section"/>
 																									</label>
 			</div>
 		</div>
 		
 		<div class="catalog row">
 			<div class="small-12 column">
-				<p>{{ sortBy }}</p>
+				<p>{{ search }}</p>
 				<ul class="items small-block-grid-1" 
 						ng-class="{'medium-block-grid-4': thActive, 'medium-block-grid-3': listActive}">
 					
-					<li ng-repeat="f in data | filter:search"
+					<li ng-repeat="f in data | filter:q"
 							ng-class="{cardList: listActive, cardTh: thActive}" 
 							ng-mouseenter="cardHovered = !cardHovered" 
 							ng-mouseleave="cardHovered = !cardHovered">

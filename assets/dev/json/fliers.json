@@ -5,7 +5,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "L",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345369-TC",
@@ -13,7 +13,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "B",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345288-TC",
@@ -21,7 +21,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "A",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345382-TC",
@@ -29,7 +29,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "B",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345488-TC",
@@ -37,7 +37,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345361-TC",
@@ -45,7 +45,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "C",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "35065-TC",
@@ -53,7 +53,7 @@
       "notes" : "",
       "pages" : 4,
       "rev" : "E",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "FV-Catalog",
@@ -61,7 +61,7 @@
       "notes" : "",
       "pages" : 80,
       "rev" : "C",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345373-TC",
@@ -69,7 +69,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
      {
       "partNumber" : "345363-TC-TIC",
@@ -77,7 +77,7 @@
       "notes" : "Contains insert 345363-TC-B",
       "pages" : 6,
       "rev" : "A",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345375-TC",
@@ -85,7 +85,7 @@
       "notes" : "Contains insert ",
       "pages" : 6,
       "rev" : "",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345345-TC",
@@ -93,7 +93,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : "FV"
+      "section" : ["FV", "ALL"]
     },
     {
       "partNumber" : "345297-TC",
@@ -101,7 +101,7 @@
       "notes" : "",
       "pages" : 28,
       "rev" : "",
-      "section" : "OG"
+      "section" : ["OG", "ALL"]
     },
     {
       "partNumber" : "345298-TC",
@@ -109,7 +109,7 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : "OG"
+      "section" : ["OG", "ALL"]
     },
      {
       "partNumber" : "35110-TC",
@@ -117,7 +117,7 @@
       "notes" : "",
       "pages" : 4,
       "rev" : "G",
-      "section" : "UYF"
+      "section" : ["UYF", "ALL"]
     },
     {
       "partNumber" : "35114-TC",
@@ -125,7 +125,7 @@
       "notes" : "",
       "pages" : 4,
       "rev" : "D",
-      "section" : "UYF"
+      "section" : ["UYF", "ALL"]
     },
     {
       "partNumber" : "35112-TC",
@@ -133,7 +133,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "D",
-      "section" : "UYF"
+      "section" : ["UYF", "ALL"]
     },
     {
       "partNumber" : "FSK-Ecoli",
@@ -141,7 +141,7 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : "UYF"
+      "section" : ["UYF", "ALL"]
     },
     {
       "partNumber" : "Bio-Folder",
@@ -149,6 +149,6 @@
       "notes" : "",
       "pages" : 0,
       "rev" : "",
-      "section" : "MISC"
+      "section" : ["MISC", "ALL"]
     }
 ]
