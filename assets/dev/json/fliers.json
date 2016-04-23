@@ -1,67 +1,67 @@
 [
     {
       "partNumber" : "35145-TC",
-      "description" : "Standard Filter Vials Flier",
+      "description" : "Standard Filter Vial General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "L",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345369-TC",
-      "description" : "eXtreme|FV",
+      "description" : "eXtreme|FV General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "B",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345288-TC",
-      "description" : "eXtractor3D|FV",
+      "description" : "eXtractor3D|FV General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "A",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345382-TC",
-      "description" : "nano|Filter Vial",
+      "description" : "nano|Filter Vial General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "B",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345488-TC",
-      "description" : "MEGA|FV General Flier",
+      "description" : "MEGA|FV General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345361-TC",
-      "description" : "General Filter Vial Flier",
+      "description" : "General Information on Filter Vials",
       "notes" : "",
       "pages" : 2,
       "rev" : "C",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "35065-TC",
-      "description" : "SINGLE StEP FV Simple Protection",
+      "description" : "SINGLE StEP Filter Vial Simple Protection",
       "notes" : "",
       "pages" : 4,
       "rev" : "E",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "FV-Catalog",
-      "description" : "Filter Vial Catalog Application Notes",
+      "description" : "Filter Vial Catalog & Application Notes",
       "notes" : "",
       "pages" : 80,
       "rev" : "C",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345373-TC",
@@ -69,71 +69,71 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
      {
       "partNumber" : "345363-TC-TIC",
-      "description" : "FV Green Solution",
+      "description" : "Filter Vial Cost Savings/Green Solution",
       "notes" : "Contains insert 345363-TC-B",
       "pages" : 6,
       "rev" : "A",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345375-TC",
       "description" : "Oral Fluid Drugs of Abuse Testing",
-      "notes" : "Contains insert ",
+      "notes" : "Contains insert of application notes. Collaboration with Orasure",
       "pages" : 6,
       "rev" : "",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345345-TC",
-      "description" : "SINGLE StEP&reg; FV PVDF Leachable",
+      "description" : "Filter Vial PVDF Leachable",
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : ["FV", "ALL"]
+      "section" : "FV"
     },
     {
       "partNumber" : "345297-TC",
-      "description" : "Optimum Growth™ Tips & Tricks CHO/HEK",
+      "description" : "Optimum Growth Tips & Tricks CHO/HEK",
       "notes" : "",
       "pages" : 28,
       "rev" : "",
-      "section" : ["OG", "ALL"]
+      "section" : "OG"
     },
     {
       "partNumber" : "345298-TC",
-      "description" : "Optimum Growth™ General Info",
+      "description" : "Optimum Growth General Information",
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : ["OG", "ALL"]
+      "section" : "OG"
     },
      {
       "partNumber" : "35110-TC",
-      "description" : "Ultra Yield Flask",
+      "description" : "Ultra Yield Flask & Economical Parallel Protein Expression Screening",
       "notes" : "",
       "pages" : 4,
       "rev" : "G",
-      "section" : ["UYF", "ALL"]
+      "section" : "UYF"
     },
     {
       "partNumber" : "35114-TC",
-      "description" : "Plasmid+",
+      "description" : "Plasmid+ General Information",
       "notes" : "",
       "pages" : 4,
       "rev" : "D",
-      "section" : ["UYF", "ALL"]
+      "section" : "UYF"
     },
     {
       "partNumber" : "35112-TC",
-      "description" : "AirOtop Enhanced Seal",
+      "description" : "AirOtop Enhanced Seal General Information",
       "notes" : "",
       "pages" : 2,
       "rev" : "D",
-      "section" : ["UYF", "ALL"]
+      "section" : "UYF"
     },
     {
       "partNumber" : "FSK-Ecoli",
@@ -141,14 +141,14 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : ["UYF", "ALL"]
+      "section" : "UYF"
     },
     {
       "partNumber" : "Bio-Folder",
-      "description" : "Biology Folder",
+      "description" : "Two Pocket Folder with Biology Cover Art",
       "notes" : "",
       "pages" : 0,
       "rev" : "",
-      "section" : ["MISC", "ALL"]
+      "section" : "MISC"
     }
 ]
