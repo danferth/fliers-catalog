@@ -119,16 +119,16 @@ gulp.task('css',function(){
 //concat | jshint | filesize
 //(--production) concat | sourcemaps | minimize | filesize
 gulp.task('js', function(){
-  return gulp.src([js_lib_src +'/**',js_src + '/**'])
-  .pipe(changed(js_dest))
+  return gulp.src([js_lib_src +'/**/**', js_src + '/*.js'])
   .pipe(concat(js_file + '.js'))
   
   .pipe(gulpif(argv.production, filesize()))
   .pipe(gulpif(argv.production, sourcemaps.init()))
   .pipe(gulpif(argv.production, uglify()))
   .pipe(gulpif(argv.production, sourcemaps.write()))
-  .pipe(gulpif(!argv.production, jshint.reporter('jshint-stylish')))
   
+  .pipe(jshint())
+  .pipe(jshint.reporter('jshint-stylish'))
   .pipe(gulp.dest(js_dest))
   .pipe(filesize());
 });
@@ -154,9 +154,9 @@ gulp.task('watch',function(){
 //pass argument --production i.e. $ gulp build --production
 gulp.task('build',['css', 'js', 'image']);
 
-gulp.task('json', function(){
-  return gulp.src('assets/dev/json/fliers.json')
-  .pipe(gulp.dest('assets/build/json'));
+gulp.task('copy', function(){
+  return gulp.src(src + "/" + argv.src + "/**")
+  .pipe(gulp.dest(dest + "/" + argv.src));
 });
 
 var html_content = "<!doctype html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1'>\n\t<title></title>\n\t<link rel='stylesheet' href='" + css_dest + "/" + css_file + ".css' type='text/css' />\n</head>\n<body>\n\n\n\t<script type='text/javascript' src='" + js_dest + "/" + js_file + "'></script> \n</body>\n</html>\n";
