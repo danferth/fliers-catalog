@@ -98,7 +98,7 @@
 						<img 	ng-class="{imageList: listActive, imageTh: thActive}" 
 									ng-src="assets/build/img/{{ f.partNumber }}.jpg" 
 									width="153" height="200"
-									ng-click="whatsmysrc()"
+									ng-click="whatsmysrc($event)"
 									></img>
 						
 						<div class="info" ng-class="{infoList: listActive, infoTh: thActive, hovered: cardHovered}">

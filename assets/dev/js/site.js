@@ -12,11 +12,8 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
         //for lightbox thingy
         $scope.lightbox = false;
         $scope.lightsrc = "";
-        $scope.whatsmysrc = function(){
-            var target  = $(this),
-                src     = target[0].f.partNumber,
-                loc     = location,
-                src     = loc.origin + "/danferth/fliers-catalog/assets/build/img/" + src + ".jpg",
+        $scope.whatsmysrc = function(event){
+            var src    =  event.currentTarget.currentSrc,
                 docHeight  = $(document).height(),
                 winHeight = $(window).height(),
                 winScroll = $(window).scrollTop(),
