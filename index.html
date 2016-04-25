@@ -9,9 +9,12 @@
 <body ng-app="APP" ng-controller="catalog">
 	
 	<div 	class="backing" 
-				ng-show="lightbox" 
-				ng-click = "lightbox = !lightbox">
+				ng-show="lightbox">
 		<div class="lightbox">
+			<span class="closeLightbox"
+						ng-click = "lightbox = !lightbox">
+				<i class="fa fa-times"></i>
+			</span>
 			<img src="" width="384" height="500"></img>
 		</div>
 	</div>
