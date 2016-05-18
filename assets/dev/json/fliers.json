@@ -4,7 +4,7 @@
       "description" : "Standard Filter Vial General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "L",
+      "rev" : "M",
       "section" : "FV"
     },
     {
@@ -12,7 +12,7 @@
       "description" : "eXtreme|FV General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "B",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -20,7 +20,7 @@
       "description" : "eXtractor3D|FV General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "A",
+      "rev" : "B",
       "section" : "FV"
     },
     {
@@ -28,7 +28,7 @@
       "description" : "nano|Filter Vial General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "B",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -36,7 +36,7 @@
       "description" : "MEGA|FV General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -76,7 +76,7 @@
       "description" : "Filter Vial Cost Savings/Green Solution",
       "notes" : "Contains insert 345363-TC-B",
       "pages" : 6,
-      "rev" : "A",
+      "rev" : "C",
       "section" : "FV"
     },
     {
@@ -84,7 +84,7 @@
       "description" : "Oral Fluid Drugs of Abuse Testing",
       "notes" : "Contains insert of application notes. Collaboration with Orasure",
       "pages" : 6,
-      "rev" : "",
+      "rev" : "A",
       "section" : "FV"
     },
     {
