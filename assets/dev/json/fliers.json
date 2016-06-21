@@ -96,11 +96,19 @@
       "section" : "FV"
     },
     {
+      "partNumber" : "345363-TC",
+      "description" : "Filter Vial APPnotes for Food Agriculture & Environmental",
+      "notes" : "",
+      "pages" : 32,
+      "rev" : "",
+      "section" : "FV"
+    },
+    {
       "partNumber" : "345297-TC",
       "description" : "Optimum Growth Tips & Tricks CHO/HEK",
       "notes" : "",
       "pages" : 28,
-      "rev" : "",
+      "rev" : "E",
       "section" : "OG"
     },
     {
