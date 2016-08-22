@@ -28,20 +28,12 @@
       "description" : "nano|Filter Vial General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "C",
+      "rev" : "D",
       "section" : "FV"
     },
     {
       "partNumber" : "345488-TC",
       "description" : "MEGA|FV General Information",
-      "notes" : "",
-      "pages" : 2,
-      "rev" : "C",
-      "section" : "FV"
-    },
-    {
-      "partNumber" : "345361-TC",
-      "description" : "General Information on Filter Vials",
       "notes" : "",
       "pages" : 2,
       "rev" : "C",
@@ -140,7 +132,7 @@
       "description" : "AirOtop Enhanced Seal General Information",
       "notes" : "",
       "pages" : 2,
-      "rev" : "D",
+      "rev" : "E",
       "section" : "UYF"
     },
     {
