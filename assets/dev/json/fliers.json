@@ -166,5 +166,21 @@
       "pages" : 8,
       "rev" : "",
       "section" : "MISC"
+    },
+    {
+      "partNumber" : "35115-TC",
+      "description" : "Plasmid+ General Flier",
+      "notes" : "",
+      "pages" : 2,
+      "rev" : "A",
+      "section" : "UYF"
+    },
+    {
+      "partNumber" : "35111-TC",
+      "description" : "Ultra Yield&trade; Flask General Flier",
+      "notes" : "",
+      "pages" : 2,
+      "rev" : "A",
+      "section" : "UYF"
     }
 ]
