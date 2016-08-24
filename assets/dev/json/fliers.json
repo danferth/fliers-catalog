@@ -177,10 +177,18 @@
     },
     {
       "partNumber" : "35111-TC",
-      "description" : "Ultra Yield&trade; Flask General Flier",
+      "description" : "Ultra Yield Flask General Flier",
       "notes" : "",
       "pages" : 2,
       "rev" : "A",
       "section" : "UYF"
+    },
+    {
+      "partNumber" : "35250-TC",
+      "description" : "SINGLE StEP Empty Columns General Flier",
+      "notes" : "",
+      "pages" : 2,
+      "rev" : "D",
+      "section" : "MISC"
     }
 ]
