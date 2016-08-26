@@ -30,3 +30,13 @@ app.controller('catalog', ['$scope', '$http', function($scope, $http){
 
     });
 }]);
+
+app.filter('yesNo', function(){
+  return function(item){
+    if(item === false || item === 1){
+      return "No";
+    }else if(item === true || item === 0){
+      return "Yes";
+    }
+  }
+});

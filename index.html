@@ -106,6 +106,7 @@
 							<p class="description">{{ f.description }}</p>
 							<p class="notes">Pages: {{ f.pages }}</p>
 							<p class="notes">{{ f.notes }}</p>
+							<p class="notes" ng-class="{'inStock' : f.inStock, 'outStock' : !f.inStock}"> In Stock: <b>{{ f.inStock | yesNo }}</b></p>
 						</div>
 					
 					</li>

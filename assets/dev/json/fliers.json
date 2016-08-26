@@ -5,7 +5,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "M",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345369-TC",
@@ -13,7 +14,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "C",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345288-TC",
@@ -21,7 +23,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "B",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345382-TC",
@@ -29,7 +32,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "D",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : false
     },
     {
       "partNumber" : "345361-TC",
@@ -37,7 +41,8 @@
       "notes" : "Filter Vial Overview",
       "pages" : 2,
       "rev" : "D",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : false
     },
     {
       "partNumber" : "345488-TC",
@@ -45,7 +50,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "C",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "35065-TC",
@@ -53,7 +59,8 @@
       "notes" : "",
       "pages" : 4,
       "rev" : "E",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "FV-Catalog",
@@ -61,7 +68,8 @@
       "notes" : "",
       "pages" : 80,
       "rev" : "C",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345373-TC",
@@ -69,7 +77,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
      {
       "partNumber" : "345363-TC-TIC",
@@ -77,7 +86,8 @@
       "notes" : "Contains insert 345363-TC-B",
       "pages" : 6,
       "rev" : "C",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345375-TC",
@@ -85,7 +95,8 @@
       "notes" : "Contains insert of application notes. Collaboration with Orasure",
       "pages" : 6,
       "rev" : "A",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345345-TC",
@@ -93,7 +104,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345368-TC",
@@ -101,7 +113,8 @@
       "notes" : "",
       "pages" : 32,
       "rev" : "",
-      "section" : "FV"
+      "section" : "FV",
+      "inStock" : true
     },
     {
       "partNumber" : "345297-TC",
@@ -109,7 +122,8 @@
       "notes" : "",
       "pages" : 28,
       "rev" : "E",
-      "section" : "OG"
+      "section" : "OG",
+      "inStock" : true
     },
     {
       "partNumber" : "345298-TC",
@@ -117,7 +131,8 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : "OG"
+      "section" : "OG",
+      "inStock" : true
     },
      {
       "partNumber" : "35110-TC",
@@ -125,7 +140,8 @@
       "notes" : "",
       "pages" : 20,
       "rev" : "J",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : false
     },
     {
       "partNumber" : "35114-TC",
@@ -133,7 +149,8 @@
       "notes" : "",
       "pages" : 4,
       "rev" : "D",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : true
     },
     {
       "partNumber" : "35112-TC",
@@ -141,7 +158,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "E",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : false
     },
     {
       "partNumber" : "FSK-Ecoli",
@@ -149,7 +167,8 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : true
     },
     {
       "partNumber" : "Bio-Folder",
@@ -157,7 +176,8 @@
       "notes" : "",
       "pages" : 0,
       "rev" : "",
-      "section" : "MISC"
+      "section" : "MISC",
+      "inStock" : true
     },
     {
       "partNumber" : "345290-TC",
@@ -165,7 +185,8 @@
       "notes" : "",
       "pages" : 8,
       "rev" : "",
-      "section" : "MISC"
+      "section" : "MISC",
+      "inStock" : true
     },
     {
       "partNumber" : "35115-TC",
@@ -173,7 +194,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "A",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : false
     },
     {
       "partNumber" : "35111-TC",
@@ -181,7 +203,8 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "A",
-      "section" : "UYF"
+      "section" : "UYF",
+      "inStock" : false
     },
     {
       "partNumber" : "35250-TC",
@@ -189,6 +212,7 @@
       "notes" : "",
       "pages" : 2,
       "rev" : "D",
-      "section" : "MISC"
+      "section" : "MISC",
+      "inStock" : false
     }
 ]
