@@ -141,7 +141,7 @@
       "pages" : 20,
       "rev" : "K",
       "section" : "UYF",
-      "inStock" : false
+      "inStock" : true
     },
     {
       "partNumber" : "35114-TC",
