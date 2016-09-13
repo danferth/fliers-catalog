@@ -60,7 +60,7 @@
       "pages" : 4,
       "rev" : "E",
       "section" : "FV",
-      "inStock" : true
+      "inStock" : false
     },
     {
       "partNumber" : "FV-Catalog",
