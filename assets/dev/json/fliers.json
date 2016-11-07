@@ -33,7 +33,7 @@
       "pages" : 2,
       "rev" : "D",
       "section" : "FV",
-      "inStock" : false
+      "inStock" : true
     },
     {
       "partNumber" : "345361-TC",
@@ -213,7 +213,7 @@
       "pages" : 2,
       "rev" : "E",
       "section" : "MISC",
-      "inStock" : false
+      "inStock" : true
     },
     {
       "partNumber" : "345321-TC",
