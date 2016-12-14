@@ -62,24 +62,6 @@
       "section" : "FV",
       "inStock" : false
     },
-    {
-      "partNumber" : "FV-Catalog",
-      "description" : "Filter Vial Catalog & Application Notes",
-      "notes" : "",
-      "pages" : 80,
-      "rev" : "C",
-      "section" : "FV",
-      "inStock" : true
-    },
-    {
-      "partNumber" : "345373-TC",
-      "description" : "eXtreme|FV Ethanol",
-      "notes" : "",
-      "pages" : 2,
-      "rev" : "",
-      "section" : "FV",
-      "inStock" : true
-    },
      {
       "partNumber" : "345363-TC-TIC",
       "description" : "Filter Vial Cost Savings/Green Solution",
@@ -121,7 +103,7 @@
       "description" : "Optimum Growth Tips & Tricks CHO/HEK",
       "notes" : "",
       "pages" : 28,
-      "rev" : "E",
+      "rev" : "F",
       "section" : "OG",
       "inStock" : true
     },
@@ -153,15 +135,6 @@
       "inStock" : true
     },
     {
-      "partNumber" : "35112-TC",
-      "description" : "AirOtop Enhanced Seal General Information",
-      "notes" : "",
-      "pages" : 2,
-      "rev" : "E",
-      "section" : "UYF",
-      "inStock" : false
-    },
-    {
       "partNumber" : "FSK-Ecoli",
       "description" : "E.Coli Paper",
       "notes" : "",
@@ -187,24 +160,6 @@
       "rev" : "B",
       "section" : "MISC",
       "inStock" : true
-    },
-    {
-      "partNumber" : "35115-TC",
-      "description" : "Plasmid+ General Flier",
-      "notes" : "",
-      "pages" : 2,
-      "rev" : "A",
-      "section" : "UYF",
-      "inStock" : false
-    },
-    {
-      "partNumber" : "35111-TC",
-      "description" : "Ultra Yield Flask General Flier",
-      "notes" : "",
-      "pages" : 2,
-      "rev" : "B",
-      "section" : "UYF",
-      "inStock" : false
     },
     {
       "partNumber" : "35250-TC",
